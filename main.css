@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    background-color: #efe9f7;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 10px 10px 50px;
+}
+
+.container header {
+    border-bottom: 2px solid #6d79ac;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.container form {
+    display: flex;
+    border-bottom: 2px solid #6d79ac;
+}
+
+.container form input,
+.container form button {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 1px solid #6d79ac;
+    margin-bottom: 20px;
+}
+
+.container form input[type=text] {
+    width: 250px;
+}
+
+.container form input[type=number] {
+    width: 160px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+.container form button {
+    width: 50px;
+    background-color: #445085;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #6d79ac;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #6d79ac;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #6d79ac7e;
+}
+
+table tbody button {
+    padding: 5px;
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.delete {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: rgb(255, 64, 64);
+}
+
+.edit {
+    background-color: #445085;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit:hover {
+    background-color: #6d79ac;
+}
